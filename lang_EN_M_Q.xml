@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RateRuleSettings_EN>
+    <RateRule id="LANG_EN">
+        <Description>Mobile Membership - EN</Description>
+        <UserRateCondition op="all">
+            <UserDeviceType>Mobile</UserDeviceType>
+            <UserSignedIn>true</UserSignedIn>
+        </UserRateCondition>
+        <UserRateCondition op="none">
+            <UserCountry>JP</UserCountry>
+            <UserCountry>HK</UserCountry>
+            <UserCountry>TW</UserCountry>
+            <UserCountry>KR</UserCountry>
+            <UserCountry>SG</UserCountry>
+            <UserCountry>AU</UserCountry>
+            <UserCountry>TH</UserCountry>
+            <UserCountry>DE</UserCountry>
+            <UserCountry>FR</UserCountry>
+            <UserCountry>RU</UserCountry>
+            <UserCountry>MY</UserCountry>
+            <UserCountry>ID</UserCountry>
+            <UserCountry>ES</UserCountry>
+            <UserCountry>IT</UserCountry>
+            <UserCountry>GB</UserCountry>
+            <UserCountry>VN</UserCountry>
+            <UserCountry>NL</UserCountry>
+            <UserCountry>PL</UserCountry>
+            <UserCountry>GR</UserCountry>
+            <UserCountry>TR</UserCountry>
+            <UserCountry>BR</UserCountry>
+            <UserCountry>NZ</UserCountry>
+            <UserCountry>AE</UserCountry>
+            <UserCountry>AR</UserCountry>
+            <UserCountry>UA</UserCountry>
+            <UserCountry>PT</UserCountry>
+            <UserCountry>IL</UserCountry>
+            <UserCountry>SA</UserCountry>
+            <UserCountry>AE</UserCountry>
+            <UserCountry>AT</UserCountry>
+            <UserCountry>BE</UserCountry>
+            <UserCountry>IE</UserCountry>
+            <UserCountry>CH</UserCountry>
+            <UserCountry>MX</UserCountry>
+            <UserCountry>US</UserCountry>
+            <UserCountry>DK</UserCountry>
+            <UserCountry>FI</UserCountry>
+            <UserCountry>SE</UserCountry>
+            <UserCountry>PH</UserCountry>
+            <UserCountry>CA</UserCountry>
+            <UserCountry>IN</UserCountry>
+            <UserCountry>JO</UserCountry>
+        </UserRateCondition>
+    </RateRule>
+</RateRuleSettings_EN>

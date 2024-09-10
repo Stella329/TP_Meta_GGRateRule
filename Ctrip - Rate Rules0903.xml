@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RateRuleSettings>
+ <UserRateCondition id="10" op="all">
+  <UserSignedIn>true</UserSignedIn>
+  <UserCountry>ID</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="11">
+  <UserCountry>MY</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="15">
+  <UserCountry>TH</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="16" op="all">
+  <UserDeviceType>mobile</UserDeviceType>
+  <UserCountry>TH</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="17" op="all">
+  <UserSignedIn>true</UserSignedIn>
+  <UserCountry>TH</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="2">
+  <UserCountry>HK</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="20">
+  <UserCountry>SA</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="21" op="all">
+  <UserDeviceType>mobile</UserDeviceType>
+  <UserCountry>SA</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="22" op="all">
+  <UserSignedIn>true</UserSignedIn>
+  <UserCountry>SA</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="25">
+  <UserCountry>BE</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="27">
+  <UserCountry>CH</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="28">
+  <UserCountry>AE</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="29" op="all">
+  <UserDeviceType>mobile</UserDeviceType>
+  <UserCountry>AE</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="3" op="all">
+  <UserDeviceType>mobile</UserDeviceType>
+  <UserCountry>HK</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="30" op="all">
+  <UserSignedIn>true</UserSignedIn>
+  <UserCountry>AE</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="44" op="all">
+  <UserDeviceType>mobile</UserDeviceType>
+  <UserCountry>MY</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="5" op="all">
+  <UserSignedIn>true</UserSignedIn>
+  <UserCountry>HK</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="50">
+  <UserCountry>US</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="51" op="all">
+  <UserDeviceType>mobile</UserDeviceType>
+  <UserCountry>US</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="52" op="all">
+  <UserSignedIn>true</UserSignedIn>
+  <UserCountry>US</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="58" op="all">
+  <UserDeviceType>mobile</UserDeviceType>
+  <UserCountry>BE</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="60" op="all">
+  <UserDeviceType>mobile</UserDeviceType>
+  <UserCountry>CH</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="77" op="all">
+  <UserSignedIn>true</UserSignedIn>
+  <UserCountry>MY</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="8">
+  <UserCountry>ID</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="9" op="all">
+  <UserDeviceType>mobile</UserDeviceType>
+  <UserCountry>ID</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="91" op="all">
+  <UserSignedIn>true</UserSignedIn>
+  <UserCountry>BE</UserCountry>
+ </UserRateCondition>
+ <UserRateCondition id="93" op="all">
+  <UserSignedIn>true</UserSignedIn>
+  <UserCountry>CH</UserCountry>
+ </UserRateCondition>
+ <RateRule id="LANG_EN">
+  <Description>english countries and other countries.</Description>
+  <UserRateCondition>
+   <UserRateCondition op="none">
+    <UserCountry>JP</UserCountry>
+    <UserCountry>HK</UserCountry>
+    <UserCountry>TW</UserCountry>
+    <UserCountry>KR</UserCountry>
+    <UserCountry>SG</UserCountry>
+    <UserCountry>AU</UserCountry>
+    <UserCountry>TH</UserCountry>
+    <UserCountry>DE</UserCountry>
+    <UserCountry>FR</UserCountry>
+    <UserCountry>RU</UserCountry>
+    <UserCountry>MY</UserCountry>
+    <UserCountry>ID</UserCountry>
+    <UserCountry>ES</UserCountry>
+    <UserCountry>IT</UserCountry>
+    <UserCountry>GB</UserCountry>
+    <UserCountry>VN</UserCountry>
+    <UserCountry>NL</UserCountry>
+    <UserCountry>PL</UserCountry>
+    <UserCountry>GR</UserCountry>
+    <UserCountry>TR</UserCountry>
+    <UserCountry>BR</UserCountry>
+    <UserCountry>NZ</UserCountry>
+    <UserCountry>AE</UserCountry>
+    <UserCountry>AR</UserCountry>
+    <UserCountry>UA</UserCountry>
+    <UserCountry>PT</UserCountry>
+    <UserCountry>IL</UserCountry>
+    <UserCountry>SA</UserCountry>
+    <UserCountry>AE</UserCountry>
+    <UserCountry>AT</UserCountry>
+    <UserCountry>BE</UserCountry>
+    <UserCountry>IE</UserCountry>
+    <UserCountry>CH</UserCountry>
+    <UserCountry>MX</UserCountry>
+    <UserCountry>US</UserCountry>
+    <UserCountry>DK</UserCountry>
+    <UserCountry>FI</UserCountry>
+    <UserCountry>SE</UserCountry>
+    <UserCountry>PH</UserCountry>
+    <UserCountry>CA</UserCountry>
+    <UserCountry>IN</UserCountry>
+    <UserCountry>JO</UserCountry>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_JP">
+  <Description>For Japanese</Description>
+  <UserRateCondition>
+   <UserCountry>JP</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_HK">
+  <Description>For HongKong</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="2"/>
+   <LanguageCode>zh-tw</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_HK_EN">
+  <Description>For HongKong_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="2"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>zh-tw</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_TW">
+  <Description>For TaiWan</Description>
+  <UserRateCondition>
+   <UserCountry>TW</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_KR">
+  <Description>For South Korea</Description>
+  <UserRateCondition>
+   <UserCountry>KR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_SG">
+  <Description>For Singapore</Description>
+  <UserRateCondition>
+   <UserCountry>SG</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_AU">
+  <Description>For Australia</Description>
+  <UserRateCondition>
+   <UserCountry>AU</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_DE">
+  <Description>For Germany</Description>
+  <UserRateCondition>
+   <UserCountry>DE</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_FR">
+  <Description>For France</Description>
+  <UserRateCondition>
+   <UserCountry>FR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_RU">
+  <Description>For Russian</Description>
+  <UserRateCondition>
+   <UserCountry>RU</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_MY">
+  <Description>For Malaysia</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="11"/>
+   <LanguageCode>ms</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_MY_EN">
+  <Description>For Malaysia_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="11"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>ms</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_ES">
+  <Description>For Spain</Description>
+  <UserRateCondition>
+   <UserCountry>ES</UserCountry>
+   <UserCountry>AR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_IT">
+  <Description>For Italy</Description>
+  <UserRateCondition>
+   <UserCountry>IT</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_GB">
+  <Description>For United Kingdom</Description>
+  <UserRateCondition>
+   <UserCountry>GB</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_VN">
+  <Description>For Vietnam</Description>
+  <UserRateCondition>
+   <UserCountry>VN</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_NL">
+  <Description>For The Netherlands</Description>
+  <UserRateCondition>
+   <UserCountry>NL</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_PL">
+  <Description>For Poland</Description>
+  <UserRateCondition>
+   <UserCountry>PL</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_GR">
+  <Description>For Greece</Description>
+  <UserRateCondition>
+   <UserCountry>GR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_TR">
+  <Description>For Turkey</Description>
+  <UserRateCondition>
+   <UserCountry>TR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_BR">
+  <Description>For Brasil</Description>
+  <UserRateCondition>
+   <UserCountry>BR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_AE">
+  <Description>For United Arab Emirates</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="28"/>
+   <LanguageCode>ar</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_AE_EN">
+  <Description>For United Arab Emirates_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="28"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>ar</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_IL">
+  <Description>For Israel</Description>
+  <UserRateCondition>
+   <UserCountry>IL</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_SA">
+  <Description>For Saudi Arabia</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="20"/>
+   <LanguageCode>ar</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_SA_EN">
+  <Description>For Saudi Arabia_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="20"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>ar</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_BE">
+  <Description>For Belgium</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="25"/>
+   <LanguageCode>nl</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_BE_EN">
+  <Description>For Belgium_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="25"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>nl</LanguageCode>
+    <LanguageCode>fr</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_BE_FR">
+  <Description>For Belgium_FR</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="25"/>
+   <LanguageCode>fr</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_IE">
+  <Description>For Ireland</Description>
+  <UserRateCondition>
+   <UserCountry>IE</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_CH">
+  <Description>For Swiss</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="27"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>fr</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_CH_FR">
+  <Description>For Swiss_FR</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="27"/>
+   <LanguageCode>fr</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_AT">
+  <Description>For Austria</Description>
+  <UserRateCondition>
+   <UserCountry>AT</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_US">
+  <Description>For United States</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="50"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>es</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_US_ES">
+  <Description>For United States_ES</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="50"/>
+   <LanguageCode>es</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_NZ">
+  <Description>For New Zealand</Description>
+  <UserRateCondition>
+   <UserCountry>NZ</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_CA">
+  <Description>For Canada</Description>
+  <UserRateCondition>
+   <UserCountry>CA</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_DK_DA">
+  <Description>For Denmark_DA</Description>
+  <UserRateCondition>
+   <UserCountry>DK</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_FI_FI">
+  <Description>For Finland_FI</Description>
+  <UserRateCondition>
+   <UserCountry>FI</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_TH">
+  <Description>For Thailand</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="15"/>
+   <LanguageCode>th</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_TH_EN">
+  <Description>For Thailand_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="15"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>th</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_ID">
+  <Description>For Indonesia</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="8"/>
+   <LanguageCode>id</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_ID_EN">
+  <Description>For Indonesia_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="8"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>id</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_IN">
+  <Description>For India</Description>
+  <UserRateCondition>
+   <UserCountry>IN</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_JO">
+  <Description>For Jordan</Description>
+  <UserRateCondition>
+   <UserCountry>JO</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_EN_M">
+  <Description>Mobile - english countries and other countries.</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserRateCondition op="none">
+    <UserCountry>JP</UserCountry>
+    <UserCountry>HK</UserCountry>
+    <UserCountry>TW</UserCountry>
+    <UserCountry>KR</UserCountry>
+    <UserCountry>SG</UserCountry>
+    <UserCountry>AU</UserCountry>
+    <UserCountry>TH</UserCountry>
+    <UserCountry>DE</UserCountry>
+    <UserCountry>FR</UserCountry>
+    <UserCountry>RU</UserCountry>
+    <UserCountry>MY</UserCountry>
+    <UserCountry>ID</UserCountry>
+    <UserCountry>ES</UserCountry>
+    <UserCountry>IT</UserCountry>
+    <UserCountry>GB</UserCountry>
+    <UserCountry>VN</UserCountry>
+    <UserCountry>NL</UserCountry>
+    <UserCountry>PL</UserCountry>
+    <UserCountry>GR</UserCountry>
+    <UserCountry>TR</UserCountry>
+    <UserCountry>BR</UserCountry>
+    <UserCountry>NZ</UserCountry>
+    <UserCountry>AE</UserCountry>
+    <UserCountry>AR</UserCountry>
+    <UserCountry>UA</UserCountry>
+    <UserCountry>PT</UserCountry>
+    <UserCountry>IL</UserCountry>
+    <UserCountry>SA</UserCountry>
+    <UserCountry>AE</UserCountry>
+    <UserCountry>AT</UserCountry>
+    <UserCountry>BE</UserCountry>
+    <UserCountry>IE</UserCountry>
+    <UserCountry>CH</UserCountry>
+    <UserCountry>MX</UserCountry>
+    <UserCountry>US</UserCountry>
+    <UserCountry>DK</UserCountry>
+    <UserCountry>FI</UserCountry>
+    <UserCountry>SE</UserCountry>
+    <UserCountry>PH</UserCountry>
+    <UserCountry>CA</UserCountry>
+    <UserCountry>JO</UserCountry>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_JP_M">
+  <Description>Mobile - For Japanese</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>JP</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_HK_M">
+  <Description>Mobile - For HongKong</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="3"/>
+   <LanguageCode>zh-tw</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_HK_EN_M">
+  <Description>Mobile - For HongKong_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="3"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>zh-tw</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_TW_M">
+  <Description>Mobile - For TaiWan</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>TW</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_KR_M">
+  <Description>Mobile - For South Korea</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>KR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_SG_M">
+  <Description>Mobile - For Singapore</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>SG</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_AU_M">
+  <Description>Mobile - For Australia</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>AU</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_DE_M">
+  <Description>Mobile - For Germany</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>DE</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_FR_M">
+  <Description>Mobile - For France</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>FR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_RU_M">
+  <Description>Mobile - For Russian</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>RU</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_MY_M">
+  <Description>Mobile - For Malaysia</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="44"/>
+   <LanguageCode>ms</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_MY_EN_M">
+  <Description>Mobile - For Malaysia_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="44"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>ms</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_ES_M">
+  <Description>Mobile - For Spain</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>ES</UserCountry>
+   <UserCountry>AR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_IT_M">
+  <Description>Mobile - For Italy</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>IT</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_GB_M">
+  <Description>Mobile - For United Kingdom</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>GB</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_VN_M">
+  <Description>Mobile - For Vietnam</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>VN</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_NL_M">
+  <Description>Mobile - For The Netherlands</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>NL</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_PL_M">
+  <Description>Mobile - For Poland</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>PL</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_GR_M">
+  <Description>Mobile - For Greece</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>GR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_TR_M">
+  <Description>Mobile - For Turkey</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>TR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_BR_M">
+  <Description>Mobile - For Brasil</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>BR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_AE_M">
+  <Description>Mobile - For United Arab Emirates</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="29"/>
+   <LanguageCode>ar</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_AE_EN_M">
+  <Description>Mobile - For United Arab Emirates_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="29"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>ar</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_IL_M">
+  <Description>Mobile - For Israel</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>IL</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_SA_M">
+  <Description>Mobile - For Saudi Arabia</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="21"/>
+   <LanguageCode>ar</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_SA_EN_M">
+  <Description>Mobile - For Saudi Arabia_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="21"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>ar</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_BE_M">
+  <Description>Mobile - For Belgium</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="58"/>
+   <LanguageCode>nl</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_BE_EN_M">
+  <Description>Mobile - For Belgium_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="58"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>nl</LanguageCode>
+    <LanguageCode>fr</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_BE_FR_M">
+  <Description>Mobile - For Belgium_FR</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="58"/>
+   <LanguageCode>fr</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_IE_M">
+  <Description>Mobile - For Ireland</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>IE</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_CH_M">
+  <Description>Mobile - For Swiss</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="60"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>fr</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_CH_FR_M">
+  <Description>Mobile - For Swiss_FR</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="60"/>
+   <LanguageCode>fr</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_AT_M">
+  <Description>Mobile - For Austria</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>AT</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_US_M">
+  <Description>Mobile - For United States</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="51"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>es</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_US_ES_M">
+  <Description>Mobile - For United States_ES</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="51"/>
+   <LanguageCode>es</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_NZ_M">
+  <Description>Mobile - For New Zealand</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>NZ</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_CA_M">
+  <Description>Mobile - For Canada</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>CA</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_DK_DA_M">
+  <Description>Mobile - For Denmark_DA</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>DK</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_FI_FI_M">
+  <Description>Mobile - For Finland_FI</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>FI</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_TH_M">
+  <Description>Mobile - For Thailand</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="16"/>
+   <LanguageCode>th</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_TH_EN_M">
+  <Description>Mobile - For Thailand_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="16"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>th</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_ID_M">
+  <Description>Mobile - For Indonesia</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="9"/>
+   <LanguageCode>id</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_ID_EN_M">
+  <Description>Mobile - For Indonesia_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="9"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>id</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_IN_M">
+  <Description>Mobile - For India</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>IN</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_JO_M">
+  <Description>Mobile - For Jordan</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>JO</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_EN_Q">
+  <Description>Member - english countries and other countries.</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserRateCondition op="none">
+    <UserCountry>JP</UserCountry>
+    <UserCountry>HK</UserCountry>
+    <UserCountry>TW</UserCountry>
+    <UserCountry>KR</UserCountry>
+    <UserCountry>SG</UserCountry>
+    <UserCountry>AU</UserCountry>
+    <UserCountry>TH</UserCountry>
+    <UserCountry>DE</UserCountry>
+    <UserCountry>FR</UserCountry>
+    <UserCountry>RU</UserCountry>
+    <UserCountry>MY</UserCountry>
+    <UserCountry>ID</UserCountry>
+    <UserCountry>ES</UserCountry>
+    <UserCountry>IT</UserCountry>
+    <UserCountry>GB</UserCountry>
+    <UserCountry>VN</UserCountry>
+    <UserCountry>NL</UserCountry>
+    <UserCountry>PL</UserCountry>
+    <UserCountry>GR</UserCountry>
+    <UserCountry>TR</UserCountry>
+    <UserCountry>BR</UserCountry>
+    <UserCountry>NZ</UserCountry>
+    <UserCountry>AE</UserCountry>
+    <UserCountry>AR</UserCountry>
+    <UserCountry>UA</UserCountry>
+    <UserCountry>PT</UserCountry>
+    <UserCountry>IL</UserCountry>
+    <UserCountry>SA</UserCountry>
+    <UserCountry>AE</UserCountry>
+    <UserCountry>AT</UserCountry>
+    <UserCountry>BE</UserCountry>
+    <UserCountry>IE</UserCountry>
+    <UserCountry>CH</UserCountry>
+    <UserCountry>MX</UserCountry>
+    <UserCountry>US</UserCountry>
+    <UserCountry>DK</UserCountry>
+    <UserCountry>FI</UserCountry>
+    <UserCountry>SE</UserCountry>
+    <UserCountry>PH</UserCountry>
+    <UserCountry>CA</UserCountry>
+    <UserCountry>JO</UserCountry>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_JP_Q">
+  <Description>Member - For Japanese</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>JP</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_HK_Q">
+  <Description>Member - For HongKong</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="5"/>
+   <LanguageCode>zh-tw</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_HK_EN_Q">
+  <Description>Member - For HongKong_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="5"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>zh-tw</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_TW_Q">
+  <Description>Member - For TaiWan</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>TW</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_KR_Q">
+  <Description>Member - For South Korea</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>KR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_SG_Q">
+  <Description>Member - For Singapore</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>SG</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_AU_Q">
+  <Description>Member - For Australia</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>AU</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_DE_Q">
+  <Description>Member - For Germany</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>DE</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_FR_Q">
+  <Description>Member - For France</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>FR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_RU_Q">
+  <Description>Member - For Russian</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>RU</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_MY_Q">
+  <Description>Member - For Malaysia</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="77"/>
+   <LanguageCode>ms</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_MY_EN_Q">
+  <Description>Member - For Malaysia_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="77"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>ms</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_ES_Q">
+  <Description>Member - For Spain</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>ES</UserCountry>
+   <UserCountry>AR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_IT_Q">
+  <Description>Member - For Italy</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>IT</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_GB_Q">
+  <Description>Member - For United Kingdom</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>GB</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_VN_Q">
+  <Description>Member - For Vietnam</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>VN</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_NL_Q">
+  <Description>Member - For The Netherlands</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>NL</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_PL_Q">
+  <Description>Member - For Poland</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>PL</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_GR_Q">
+  <Description>Member - For Greece</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>GR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_TR_Q">
+  <Description>Member - For Turkey</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>TR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_BR_Q">
+  <Description>Member - For Brasil</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>BR</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_AE_Q">
+  <Description>Member - For United Arab Emirates</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="30"/>
+   <LanguageCode>ar</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_AE_EN_Q">
+  <Description>Member - For United Arab Emirates_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="30"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>ar</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_IL_Q">
+  <Description>Member - For Israel</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>IL</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_SA_Q">
+  <Description>Member - For Saudi Arabia</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="22"/>
+   <LanguageCode>ar</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_SA_EN_Q">
+  <Description>Member - For Saudi Arabia_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="22"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>ar</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_BE_Q">
+  <Description>Member - For Belgium</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="91"/>
+   <LanguageCode>nl</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_BE_EN_Q">
+  <Description>Member - For Belgium_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="91"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>nl</LanguageCode>
+    <LanguageCode>fr</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_BE_FR_Q">
+  <Description>Member - For Belgium_FR</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="91"/>
+   <LanguageCode>fr</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_IE_Q">
+  <Description>Member - For Ireland</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>IE</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_CH_Q">
+  <Description>Member - For Swiss</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="93"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>fr</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_CH_FR_Q">
+  <Description>Member - For Swiss</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="93"/>
+   <LanguageCode>fr</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_AT_Q">
+  <Description>Member - For Austria</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>AT</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_US_Q">
+  <Description>Member - For United States</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="52"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>es</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_US_ES_Q">
+  <Description>Member - For United States_ES</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="52"/>
+   <LanguageCode>es</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_NZ_Q">
+  <Description>Member - For New Zealand</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>NZ</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_CA_Q">
+  <Description>Member - For Canada</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>CA</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_DK_DA_Q">
+  <Description>Member - For Denmark_DA</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>DK</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_FI_FI_Q">
+  <Description>Member - For Finland_FI</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>FI</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_MX">
+  <Description>For Mexico</Description>
+  <UserRateCondition>
+   <UserCountry>MX</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_MX_M">
+  <Description>Mobile - For Mexico</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>MX</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_MX_Q">
+  <Description>Member - For Mexico</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>MX</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_UA">
+  <Description>For Ukraine</Description>
+  <UserRateCondition>
+   <UserCountry>UA</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_UA_M">
+  <Description>Mobile - For Ukraine</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>UA</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_UA_Q">
+  <Description>Member - For Ukraine</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>UA</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_SE">
+  <Description>For Sweden</Description>
+  <UserRateCondition>
+   <UserCountry>SE</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_SE_M">
+  <Description>Mobile - For Sweden</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>SE</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_SE_Q">
+  <Description>Member - For Sweden</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>SE</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_PT">
+  <Description>For Portugal</Description>
+  <UserRateCondition>
+   <UserCountry>PT</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_PT_M">
+  <Description>Mobile - For Portugal</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>PT</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_PT_Q">
+  <Description>Member - For Portugal</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>PT</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_PH">
+  <Description>For Philippines</Description>
+  <UserRateCondition>
+   <UserCountry>PH</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_PH_M">
+  <Description>Mobile - Philippines</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserCountry>PH</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_PH_Q">
+  <Description>Member - Philippines</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>PH</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_TH_Q">
+  <Description>Member - For Thailand</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="17"/>
+   <LanguageCode>th</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_TH_EN_Q">
+  <Description>Member - For Thailand_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="17"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>th</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_ID_Q">
+  <Description>Member - For Indonesia</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition reference_id="10"/>
+   <LanguageCode>id</LanguageCode>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_ID_EN_Q">
+  <Description>Member - For Indonesia_EN</Description>
+  <UserRateCondition op="all">
+   <UserRateCondition>
+    <UserRateCondition reference_id="10"/>
+   </UserRateCondition>
+   <UserRateCondition op="none">
+    <LanguageCode>id</LanguageCode>
+   </UserRateCondition>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_IN_Q">
+  <Description>Member - For India</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>IN</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_JO_Q">
+  <Description>Member - For Jordan</Description>
+  <UserRateCondition op="all">
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>JO</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+ <RateRule id="LANG_GB_Q_M">
+  <Description>Mobile Membership - For GB_en</Description>
+  <UserRateCondition op="all">
+   <UserDeviceType>mobile</UserDeviceType>
+   <UserSignedIn>true</UserSignedIn>
+   <UserCountry>GB</UserCountry>
+  </UserRateCondition>
+ </RateRule>
+</RateRuleSettings>
