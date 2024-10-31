@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <RateRuleSettings_sing>
-    <RateRule id="LANG_JP">
+    <RateRule id="LANG_JP_Q_M">
         <Description>Mobile Membership - JP</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -8,7 +8,7 @@
             <UserCountry>JP</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_TW">
+    <RateRule id="LANG_TW_Q_M">
         <Description>Mobile Membership - TW</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -16,7 +16,7 @@
             <UserCountry>TW</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_KR">
+    <RateRule id="LANG_KR_Q_M">
         <Description>Mobile Membership - KR</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -24,7 +24,7 @@
             <UserCountry>KR</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_SG">
+    <RateRule id="LANG_SG_Q_M">
         <Description>Mobile Membership - SG</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -32,7 +32,7 @@
             <UserCountry>SG</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_AU">
+    <RateRule id="LANG_AU_Q_M">
         <Description>Mobile Membership - AU</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -40,7 +40,7 @@
             <UserCountry>AU</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_DE">
+    <RateRule id="LANG_DE_Q_M">
         <Description>Mobile Membership - DE</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -48,7 +48,7 @@
             <UserCountry>DE</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_FR">
+    <RateRule id="LANG_FR_Q_M">
         <Description>Mobile Membership - FR</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -56,7 +56,7 @@
             <UserCountry>FR</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_RU">
+    <RateRule id="LANG_RU_Q_M">
         <Description>Mobile Membership - RU</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -64,7 +64,7 @@
             <UserCountry>RU</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_ES">
+    <RateRule id="LANG_ES_Q_M">
         <Description>Mobile Membership - ES</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -73,7 +73,7 @@
             <UserCountry>AR</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_IT">
+    <RateRule id="LANG_IT_Q_M">
         <Description>Mobile Membership - IT</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -81,7 +81,7 @@
             <UserCountry>IT</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_GB">
+    <RateRule id="LANG_GB_Q_M">
         <Description>Mobile Membership - GB</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -89,7 +89,7 @@
             <UserCountry>GB</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_VN">
+    <RateRule id="LANG_VN_Q_M">
         <Description>Mobile Membership - VN</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -97,7 +97,7 @@
             <UserCountry>VN</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_NL">
+    <RateRule id="LANG_NL_Q_M">
         <Description>Mobile Membership - NL</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -105,7 +105,7 @@
             <UserCountry>NL</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_PL">
+    <RateRule id="LANG_PL_Q_M">
         <Description>Mobile Membership - PL</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -113,7 +113,7 @@
             <UserCountry>PL</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_GR">
+    <RateRule id="LANG_GR_Q_M">
         <Description>Mobile Membership - GR</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -121,7 +121,7 @@
             <UserCountry>GR</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_TR">
+    <RateRule id="LANG_TR_Q_M">
         <Description>Mobile Membership - TR</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -129,7 +129,7 @@
             <UserCountry>TR</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_BR">
+    <RateRule id="LANG_BR_Q_M">
         <Description>Mobile Membership - BR</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -137,7 +137,7 @@
             <UserCountry>BR</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_IL">
+    <RateRule id="LANG_IL_Q_M">
         <Description>Mobile Membership - IL</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -145,7 +145,7 @@
             <UserCountry>IL</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_IE">
+    <RateRule id="LANG_IE_Q_M">
         <Description>Mobile Membership - IE</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -153,7 +153,7 @@
             <UserCountry>IE</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_AT">
+    <RateRule id="LANG_AT_Q_M">
         <Description>Mobile Membership - AT</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -161,7 +161,7 @@
             <UserCountry>AT</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_NZ">
+    <RateRule id="LANG_NZ_Q_M">
         <Description>Mobile Membership - NZ</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -169,7 +169,7 @@
             <UserCountry>NZ</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_CA">
+    <RateRule id="LANG_CA_Q_M">
         <Description>Mobile Membership - CA</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -177,7 +177,7 @@
             <UserCountry>CA</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_IN">
+    <RateRule id="LANG_IN_Q_M">
         <Description>Mobile Membership - IN</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -185,7 +185,7 @@
             <UserCountry>IN</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_JO">
+    <RateRule id="LANG_JO_Q_M">
         <Description>Mobile Membership - JO</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -193,7 +193,7 @@
             <UserCountry>JO</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_MX">
+    <RateRule id="LANG_MX_Q_M">
         <Description>Mobile Membership - MX</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -201,7 +201,7 @@
             <UserCountry>MX</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_UA">
+    <RateRule id="LANG_UA_Q_M">
         <Description>Mobile Membership - UA</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -209,7 +209,7 @@
             <UserCountry>UA</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_SE">
+    <RateRule id="LANG_SE_Q_M">
         <Description>Mobile Membership - SE</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -217,7 +217,7 @@
             <UserCountry>SE</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_PT">
+    <RateRule id="LANG_PT_Q_M">
         <Description>Mobile Membership - PT</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>
@@ -225,7 +225,7 @@
             <UserCountry>PT</UserCountry>
         </UserRateCondition>
     </RateRule>
-    <RateRule id="LANG_PH">
+    <RateRule id="LANG_PH_Q_M">
         <Description>Mobile Membership - PH</Description>
         <UserRateCondition op="all">
             <UserDeviceType>Mobile</UserDeviceType>

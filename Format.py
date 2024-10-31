@@ -12,9 +12,9 @@ class XmlFormat:
         self.root.set('id',f'{self.idName}')  ## --{'id': 'LANG_EN'}
 
 
-    def set_rule_EN(self):
+    def setRule_EN_QM(self): ##EN_Q_M
         '''创建单条child'''
-
+        self.root.set('id', f'{self.idName}_Q_M')
         child1=ET.SubElement(self.root, 'Description') ##child1 = ET.SubElement(root, "child1")
         child1.text = f'Mobile Membership - {str(self.idName[5:])}'
         child2=ET.SubElement(self.root, 'UserRateCondition')
@@ -36,9 +36,9 @@ class XmlFormat:
 
 
 
-    def set_rule_SingLang(self):
+    def setRule_sing_QM(self): ##单语言_Q_M
         '''创建单条child'''
-
+        self.root.set('id', f'{self.idName}_Q_M')
         child1=ET.SubElement(self.root, 'Description')
         child1.text = f'Mobile Membership - {str(self.idName[5:])}'
         child2=ET.SubElement(self.root,'UserRateCondition')
@@ -57,9 +57,8 @@ class XmlFormat:
 
 
 
-    # def set_rule_mulMother(self): ##多语言-本国语
-    #
-    # def set_rule_mulEN(self): ##多语言-英语
+    # TODO def setRule_mulMother(self): ##多语言-本国语
+    # TODO def setRule_mulEN(self): ##多语言-英语
 
 
 
@@ -76,52 +75,5 @@ class XmlFormat:
 
 
 
-    # 弃用
-
-    #
-    # def mulLang_EN(self):
-    #     #多语言手机会员价 内容：
-    #     ## HK_en
-    #     list_multiLang_EN = [f'<RateRule id="{self.idName}">',
-    #     f'<Description>Mobile Membership - For {str(self.idName[5:])}</Description>',
-    #
-    #     f'<UserRateCondition op="all">',
-    #     f'<UserRateCondition>',
-    #     f'<UserDeviceType>mobile</UserDeviceType>',
-    #     f'<UserSignedIn>true</UserSignedIn>',
-    #     f'</UserRateCondition>',
-    #
-    #     f'<UserRateCondition>',
-    #     f"<UserRateCondition op='none'>",
-    #     f'<LanguageCode>{self.langCode}</LanguageCode>',
-    #     f'</UserRateCondition>',
-    #     f'</UserRateCondition>',
-    #
-    #     # f'<UserRateCondition>',
-    #     # f'<UserRateCondition reference_id="{111}"/>',
-    #     # f'</UserRateCondition>',
-    #
-    #     f'</UserRateCondition>',
-    #     f'</RateRule>']
-    #
-    #     return list_multiLang_EN
-    #
-    # def mulLang_Mother(self):
-    # ## HK
-    #     list_multiLang_Mother=[f"<RateRule id='{self.idName}'>",
-    #     f'<Description>Mobile Membership - {str(self.idName[5:])}</Description>',
-    #
-    #     f'<UserRateCondition op="all">',
-    #
-    #     f'<UserDeviceType>mobile</UserDeviceType>',
-    #     f'<UserSignedIn>true</UserSignedIn>',
-    #     f'<LanguageCode>{self.langCode}</LanguageCode>',
-    #     # f'<UserRateCondition reference_id="{111}"/>',
-    #
-    #     f'</UserRateCondition>',
-    #
-    #     f'</RateRule>']
-    #
-    #     return list_multiLang_Mother
 
 

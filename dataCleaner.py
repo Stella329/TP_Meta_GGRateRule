@@ -11,7 +11,7 @@ class Categorizer:
         self.infoCollector()
 
         self.info_dict ={}
-
+        ## ID库：将ID分类
         self.id_LANG_EN = []
         self.idMulLang = []
         self.idSLang = []
@@ -63,6 +63,10 @@ class Categorizer:
         return self.infoCollection
 
 
+    # TODO def infoCollector_2(self):
+    #     """【优先级低】：infoCollector(self)升级版：用Etree轮询，而不用一层一层筛选"""
+
+
     def idCategorizer(self):
         '''作用：给ID分组
         后续逻辑：ID分完组，用ID name在infocollector中轮询'''
@@ -75,13 +79,14 @@ class Categorizer:
             elif '_Q_M' in idName:
                 self.id_Q_M.append(idName)
 
-            elif idName[-2:]=='_M': ##避免有LANG_MY类似混入; 已排除’_Q_M‘
+            elif idName[-2:]=='_M': ##排除: 1. 避免LANG_MY类似混入(必须以_M结尾）; 2.排除’_Q_M‘
+                ## 截取逻辑：'LANG_MY_M'[-1:] == M; 'LANG_MY_M'[-2:] == _M
                 self.id_M.append(idName)
 
             elif '_Q' in idName:
                 self.id_Q.append(idName)
 
-            elif len(idName) < 8 and subject['languageCode']==[]:  ##regular prices
+            elif len(idName) < 8 and subject['languageCode']==[]:  ##单语言站点：1.string长度 2. 无language code
                 self.idSLang.append(idName)
 
             else:
