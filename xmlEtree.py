@@ -33,7 +33,7 @@ import Format
 #————————————————————————————————————————————————
 
 file = Categorizer.Categorizer(fileName)
-file.infoCollector()
+file.collect_info()
 
 idMulLang_list = file.idMulLang
 idSLang_list = file.idSLang

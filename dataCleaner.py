@@ -7,8 +7,8 @@ class Categorizer:
         self.tree = ET.parse(fileName)
         self.root = self.tree.getroot()
 
-        self.infoCollection = []  ##--[{'id': 'LANG_NL', 'description': 'For The Netherlands', 'country': ['NL'], 'languageCode': []}, {'id': 'LANG_PL', ...}]
-        self.infoCollector()
+        self.infoCollection = []  ##含所有信息--[{'id': 'LANG_NL', 'description': 'For The Netherlands', 'country': ['NL'], 'languageCode': []}, {'id': 'LANG_PL', ...}]
+        self.collect_info() ##method, 添加所有信息
 
         self.info_dict ={}
         ## ID库：将ID分类
@@ -20,13 +20,14 @@ class Categorizer:
         self.id_Q_M = []
         self.idCategorizer()
 
-    def infoCollector(self):
-        '''收集所有信息,于一个dictionary中：key = Raterule ID; value =该ID下的所有信息, 包括description, country, languageCode'''
+    def collect_info(self):
+        '''1. 轮询xml，收集每条信息放入containner(dictionary)中：key = Raterule ID; value =该ID下的所有信息, 包括description, country, languageCode
+        2. container放入infoCollector中（list)'''
         for item in self.root.findall('RateRule'):
 
-            container = {} ##容器
+            container = {} ##新建容器：key=value名称，value=value值
 
-            ##第一层
+            ##第一层：<RateRule id="LANG_XX">下
             id = item.attrib['id']  ##raterule tag中的id -- Return dic: {'id': 'LANG_EN'}
             description = item.find('Description').text  ##-- string
 
@@ -34,7 +35,7 @@ class Categorizer:
             container['description'] = description
 
 
-            ##第二层: under <UserRateCondition>
+            ##第二层: <UserRateCondition>下
             for child in item:  ##遍历第二层的节点和标签名和属性: <UserRateCondition op="all">下
 
                 ##国家：<UserCoutnry>有的在二层，有的在三层
@@ -51,46 +52,57 @@ class Categorizer:
                 container['languageCode'] = language_list
 
 
-                # ## tag1: <UserRateCondition op="all">
-                # userRateCondition_1 = item.find('UserRateCondition').attrib
+                # ## 收录第二层的attribute
+                # ## 0=不适用
+                # layer2_attrib = item.find('UserRateCondition').attrib
                 # try:
-                #     op = userRateCondition_1['op']
+                #     op = layer2_attrib['op']
                 # except KeyError:  ##返回空值{}
                 #     op = 0
-                # container['userRateCondition_1'] = op
+                # container['layer2_attrib'] = op
+                #
+                #
+                # ##第三层：more <UserRateCondition>
+                # ## 多语言：内容混乱，且有引入op="none/all"区分国家；reference_id="xx"关联前序ref_id；需单独拆分
+                # ## 0=不适用
+                # try:
+                #     for grandchild in child.findall('UserRateCondition'):
+                #         pass
+
+
 
             self.infoCollection.append(container)
         return self.infoCollection
 
 
-    # TODO def infoCollector_2(self):
-    #     """【优先级低】：infoCollector(self)升级版：用Etree轮询，而不用一层一层筛选"""
+
+    # TODO def collect_info2(self):
+    #     """【优先级低】：collect_info2方法升级版：用Etree轮询，而不用一层一层筛选"""
 
 
     def idCategorizer(self):
-        '''作用：给ID分组
-        后续逻辑：ID分完组，用ID name在infocollector中轮询'''
-        for subject in self.infoCollection:
-            idName = subject['id']
+        '''作用：按照ID的名称，区分多语言、单语言和M,Q等价格'''
+        for item in self.infoCollection:
+            id_name = item['id']
 
-            if idName == 'LANG_EN':
-                self.id_LANG_EN.append(idName)
+            if id_name == 'LANG_EN':
+                self.id_LANG_EN.append(id_name)
 
-            elif '_Q_M' in idName:
-                self.id_Q_M.append(idName)
+            elif '_Q_M' in id_name:
+                self.id_Q_M.append(id_name)
 
-            elif idName[-2:]=='_M': ##排除: 1. 避免LANG_MY类似混入(必须以_M结尾）; 2.排除’_Q_M‘
+            elif id_name[-2:]=='_M': ##排除: 1. 避免LANG_MY类似混入(必须以_M结尾）; 2.排除’_Q_M‘
                 ## 截取逻辑：'LANG_MY_M'[-1:] == M; 'LANG_MY_M'[-2:] == _M
-                self.id_M.append(idName)
+                self.id_M.append(id_name)
 
-            elif '_Q' in idName:
-                self.id_Q.append(idName)
+            elif '_Q' in id_name:
+                self.id_Q.append(id_name)
 
-            elif len(idName) < 8 and subject['languageCode']==[]:  ##单语言站点：1.string长度 2. 无language code
-                self.idSLang.append(idName)
+            elif len(id_name) < 8 and item['languageCode']==[]:  ##单语言站点：1.string长度 2. 无language code
+                self.idSLang.append(id_name)
 
             else:
-                self.idMulLang.append(idName)
+                self.idMulLang.append(id_name)
 
 
     def checker(self):

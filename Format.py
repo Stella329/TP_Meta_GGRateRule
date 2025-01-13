@@ -38,20 +38,22 @@ class XmlFormat:
 
     def setRule_sing_QM(self): ##单语言_Q_M
         '''创建单条child'''
-        self.root.set('id', f'{self.idName}_Q_M')
-        child1=ET.SubElement(self.root, 'Description')
-        child1.text = f'Mobile Membership - {str(self.idName[5:])}'
-        child2=ET.SubElement(self.root,'UserRateCondition')
+        self.root.set('id', f'{self.idName}_Q_M') # <RateRule id="LANG_BR_Q_M">
+
+        child1=ET.SubElement(self.root, 'Description') # <Description>
+        child1.text = f'Mobile Membership - {str(self.idName[5:])}' # <Description>Mobile Membership - BR</Description>
+
+        child2=ET.SubElement(self.root,'UserRateCondition') # <UserRateCondition op="all">
         child2.set('op', "all")
 
 
-        grandchild1=ET.SubElement(child2, 'UserDeviceType') #M
+        grandchild1=ET.SubElement(child2, 'UserDeviceType') #<UserDeviceType>Mobile</UserDeviceType>
         grandchild1.text = 'Mobile'
-        grandchild2 = ET.SubElement(child2, 'UserSignedIn')  #Q
+        grandchild2 = ET.SubElement(child2, 'UserSignedIn')  #<UserSignedIn>true</UserSignedIn>
         grandchild2.text = 'true'
 
         num=3
-        for i in range(0,len(self.country)): #如果多Country
+        for i in range(0,len(self.country)): #如果多条Country --》<UserCountry>BR</UserCountry>
             globals()[f'grandchild{num+i}'] = ET.SubElement(child2, 'UserCountry')  ## grandchild3, 4, 5...
             globals()[f'grandchild{num+i}'].text = self.country[i]  ## grandchild3.text
 
