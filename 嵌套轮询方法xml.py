@@ -1,4 +1,4 @@
-# From ima:
+# From chatgpt:
 # 在Python代码中处理XML中的嵌套标签，你可以修改遍历XML树的方式，以便能够记录每个元素的层级关系。以下是一个更新后的脚本，它可以处理嵌套标签，并将它们以层级结构存储在Excel中
 
 import xml.etree.ElementTree as ET
