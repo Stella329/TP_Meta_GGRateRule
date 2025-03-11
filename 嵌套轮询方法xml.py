@@ -59,4 +59,3 @@ df = pd.DataFrame(parsed_data)
 df.to_excel("parsed_xml.xlsx", index=False)
 
 print("XML 数据已成功解析并保存到 Excel。")
-
