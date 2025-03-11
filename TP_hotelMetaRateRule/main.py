@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as ET
 import dataCleaner
-import Format
 
 # 读取
 fileName = 'Ctrip - Rate Rules0903.xml'
